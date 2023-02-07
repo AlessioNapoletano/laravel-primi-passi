@@ -7,6 +7,37 @@
     
     <title>Home Laravel</title>
     
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            height: 10rem;
+            background-color: magenta;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            padding: 1rem;
+        }
+
+        li a{
+            text-decoration: none;
+            color: black;
+            
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,10 +47,6 @@
 
         <nav>
             <ul>
-                <li>
-                    <a href="/pagina1">Pagina 1</a>
-                </li>
-
                 <li>
                     <a href="/pagina2">Pagina 2</a>
                 </li>
